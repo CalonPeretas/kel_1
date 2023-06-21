@@ -338,7 +338,7 @@
                                                 <?= $ps->namaBarang; ?>
                                             </td>
                                             <td class="text-xs">
-                                                <?= ($ps->jenisBarang == '1') ? 'Barang Modal' : 'Habis Pakai'; ?>
+                                                <?= ($ps->jenisBarang == '1') ? 'Aset Modal' : 'Habis Pakai'; ?>
                                             </td>
                                             <td class="text-xs">
                                                 <?= $ps->nama; ?>
